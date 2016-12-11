@@ -1,14 +1,14 @@
 #!/bin/bash
 #=============================================================================#
-# Title 			 : File Convert OLSWS                                           #
+# Title        : File Convert OLSWS                                           #
 # Description  : This script analyses a text file and convert to VirtualHost  #
-#								 for OpenLitespeed Web Server                                 #
-# Author 			 : Tony Briet                                                   #
-#	Date 				 : 7 December 2016                                              #
+#		 for OpenLitespeed Web Server                                 #
+# Author       : Tony Briet                                                   #
+# Date 	       : 7 December 2016                                              #
 # Version      : 0.1.0                                                        #
-#	Usage				 : bash file-convert.sh or ./file-convert.sh                    #
+# Usage	       : bash file-convert.sh [file] or ./file-convert.sh [file]      #
 # Notes        : Install OLSWS, make sure to have sufficient permissions and  #
-#								 tput installed in your system                                #
+#		 tput installed in your system                                #
 # Bash Version : 4.3.30(1)-release                                            #
 #=============================================================================#
 
