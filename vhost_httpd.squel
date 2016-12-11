@@ -1,0 +1,9 @@
+virtualhost VHOST_NAME {
+ vhRoot                  VHOST_ROOT/
+ configFile              VHOST_CONFIG_FILE
+ allowSymbolLink         2
+ enableScript            1
+ restrained              0
+ maxKeepAliveReq         10000
+ smartKeepAlive          1
+}

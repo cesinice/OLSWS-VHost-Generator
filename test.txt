@@ -1,0 +1,3 @@
+www.robot.com, true
+www.cyka.blyat, true
+www.ntm.com, poney

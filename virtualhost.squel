@@ -1,0 +1,31 @@
+docRoot                   VHOST_ROOT/html/
+vhDomain                  DOMAIN
+adminEmails               admin@DOMAIN
+enableGzip                1
+
+errorlog VHOST_ROOT/logs/error.log {
+	useServer               1
+	logLevel                DEBUG
+	rollingSize             10M
+}
+
+accesslog VHOST_ROOT/logs/access.log {
+	useServer               0
+	rollingSize             10M
+	keepDays                30
+	compressArchive         0
+}
+
+index  {
+	useServer               2
+	indexFiles              index.html, index.php
+	autoIndex               0
+}
+
+expires  {
+	enableExpires           1
+}
+
+rewrite  {
+	enable                  1
+}
